@@ -1,0 +1,108 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix loinc: <http://loinc.org/rdf#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+# - resource -------------------------------------------------------------------
+ <http://hl7.org/fhir/Observation/LP FFM1> a fhir:Observation;
+ fhir:nodeRole fhir:treeRoot;
+ fhir:Resource.id [ fhir:value LP FFM1];
+fhir:DomainResource.text [
+fhir:Narrative.status [ fhir:value generated ];
+fhir:Narrative.div No HTML content ];
+fhir:Observation.identifier [
+fhir:index 0;
+fhir:Identifier.use [ fhir:value official ];
+fhir:Identifier.system [ fhir:value http://www.bmc.nl/zorgportal/identifiers/observations ];
+fhir:Identifier.value [ fhir:value 6323 ]
+]
+fhir:Observation.status [ fhir:value final];
+fhir:Observation.code 
+fhir:CodeableConcept.coding [
+fhir:index 0;
+a loinc:Sheet1.Definition.Code;
+fhir:Coding.system [ fhir:value http://loinc.org ];
+fhir:Coding.code [ fhir:value Name: /xl/worksheets/sheet2.xml - Content Type: application/vnd.openxmlformats-officedocument.spreadsheetml.worksheet+xml.Definition.Code ];
+fhir:Coding.display [ fhir:value Name: /xl/worksheets/sheet2.xml - Content Type: application/vnd.openxmlformats-officedocument.spreadsheetml.worksheet+xml.Definition from LOINC ]
+ ]
+];
+fhir:Observation.subject [
+fhir:link <http://hl7.org/fhir/Patient/LP FFM1>;
+fhir:Reference.reference [ fhir:value Patient/LP FFM1 ];
+fhir:Reference.display [ fhir:value LP FFM1_Anonymized ]
+];
+fhir:Observation.code [
+fhir:String.value [ fhir:value Name: /xl/worksheets/sheet2.xml - Content Type: application/vnd.openxmlformats-officedocument.spreadsheetml.worksheet+xml.Variable_name_label^^xsd:String ]
+];
+fhir:Observation.valueString [
+fhir:String.value [ fhir:value Name: /xl/worksheets/sheet2.xml - Content Type: application/vnd.openxmlformats-officedocument.spreadsheetml.worksheet+xml.Variable_Description^^xsd:String ]
+];
+fhir:Observation.valueQuantity [
+fhir:Quantity.value [ fhir:value LP FFM1^^xsd:sheet.Type ];
+fhir:Quantity.unit [ fhir:value Name: /xl/worksheets/sheet2.xml - Content Type: application/vnd.openxmlformats-officedocument.spreadsheetml.worksheet+xml.Unit/Item Value ]
+].
+<http://hl7.org/fhir/Patient/LP FFM1> a fhir:Patient .
+<http://hl7.org/fhir/Practitioner/fxxx> a fhir:Practitioner .
+# - ontology header ------------------------------------------------------------
+<http://hl7.org/fhir/Observation/LP FFM1.ttl> a owl:Ontology;
+owl:imports fhir:fhir.ttl;
+owl:versionIRI <http://build.fhir.org/Observation/LP FFM1.ttl> .
+ # -------------------------------------------------------------------------------------
+
+
+
+
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix loinc: <http://loinc.org/rdf#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+# - resource -------------------------------------------------------------------
+ <http://hl7.org/fhir/Observation/LP FFM2> a fhir:Observation;
+ fhir:nodeRole fhir:treeRoot;
+ fhir:Resource.id [ fhir:value LP FFM2];
+fhir:DomainResource.text [
+fhir:Narrative.status [ fhir:value generated ];
+fhir:Narrative.div No HTML content ];
+fhir:Observation.identifier [
+fhir:index 0;
+fhir:Identifier.use [ fhir:value official ];
+fhir:Identifier.system [ fhir:value http://www.bmc.nl/zorgportal/identifiers/observations ];
+fhir:Identifier.value [ fhir:value 6323 ]
+]
+fhir:Observation.status [ fhir:value final];
+fhir:Observation.code 
+fhir:CodeableConcept.coding [
+fhir:index 0;
+a loinc:Sheet1.Definition.Code;
+fhir:Coding.system [ fhir:value http://loinc.org ];
+fhir:Coding.code [ fhir:value Name: /xl/worksheets/sheet2.xml - Content Type: application/vnd.openxmlformats-officedocument.spreadsheetml.worksheet+xml.Definition.Code ];
+fhir:Coding.display [ fhir:value Name: /xl/worksheets/sheet2.xml - Content Type: application/vnd.openxmlformats-officedocument.spreadsheetml.worksheet+xml.Definition from LOINC ]
+ ]
+];
+fhir:Observation.subject [
+fhir:link <http://hl7.org/fhir/Patient/LP FFM2>;
+fhir:Reference.reference [ fhir:value Patient/LP FFM2 ];
+fhir:Reference.display [ fhir:value LP FFM2_Anonymized ]
+];
+fhir:Observation.code [
+fhir:String.value [ fhir:value Name: /xl/worksheets/sheet2.xml - Content Type: application/vnd.openxmlformats-officedocument.spreadsheetml.worksheet+xml.Variable_name_label^^xsd:String ]
+];
+fhir:Observation.valueString [
+fhir:String.value [ fhir:value Name: /xl/worksheets/sheet2.xml - Content Type: application/vnd.openxmlformats-officedocument.spreadsheetml.worksheet+xml.Variable_Description^^xsd:String ]
+];
+fhir:Observation.valueQuantity [
+fhir:Quantity.value [ fhir:value LP FFM2^^xsd:sheet.Type ];
+fhir:Quantity.unit [ fhir:value Name: /xl/worksheets/sheet2.xml - Content Type: application/vnd.openxmlformats-officedocument.spreadsheetml.worksheet+xml.Unit/Item Value ]
+].
+<http://hl7.org/fhir/Patient/LP FFM2> a fhir:Patient .
+<http://hl7.org/fhir/Practitioner/fxxx> a fhir:Practitioner .
+# - ontology header ------------------------------------------------------------
+<http://hl7.org/fhir/Observation/LP FFM2.ttl> a owl:Ontology;
+owl:imports fhir:fhir.ttl;
+owl:versionIRI <http://build.fhir.org/Observation/LP FFM2.ttl> .
+ # -------------------------------------------------------------------------------------
+
+
+
+
